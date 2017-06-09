@@ -12,7 +12,7 @@ public class LamdasExample {
 		List<String> lstString = Arrays.asList("Happy", "New", "Year");
 		System.out.println(lstString);
 		
-		lstString.forEach(System.out::println);
+		lstString.forEach(System.out::print);
 		System.out.println(lstString.stream().limit(1).collect(Collectors.toList()));
 		//System.out.println();
 		
