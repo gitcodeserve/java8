@@ -12,7 +12,11 @@ public class LamdasExample {
 		List<String> lstString = Arrays.asList("Happy", "New", "Year");
 		System.out.println(lstString);
 		
+<<<<<<< Updated upstream
 		lstString.forEach(System.out::print);
+=======
+		lstString.forEach(System.out::println);
+>>>>>>> Stashed changes
 		System.out.println(lstString.stream().limit(1).collect(Collectors.toList()));
 		//System.out.println();
 		
